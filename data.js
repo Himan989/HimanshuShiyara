@@ -8,7 +8,6 @@ var videoData =[
   "androidLink": "https://play.google.com/store/apps/details?id=com.omentertainment.soccerfans",
   "iosLink": "null"
  },
-
  {
   "category": "Multiplayer",
   "tag": "#Multiplayer,#2D#API",
