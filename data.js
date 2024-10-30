@@ -128,12 +128,34 @@ var videoData =[
  {
   "category": "Casual",
   "tag": "#Casual,#2D",
-  "name": "Cooking Valley: Level Base Game",
-  "url": "https://play.google.com/store/apps/details?id=com.cooking.games.design.madness",
+  "name": "Cooking Valley",
+  "url": "https://www.youtube.com/watch?v=wT4TrNb8XUo",
   "description": "\"Cooking Valley\" is an engaging, level-based time-management game where players step into the role of Emma, a talented chef, on a mission to serve delicious dishes to a bustling restaurant full of customers. In this game, players guide Emma as she cooks and serves meals, meeting the unique demands of each level. Levels introduce a variety of challenges—some require fast service within strict time limits, others focus on collecting a certain amount of coins, fulfilling specific food orders, or managing impatient customers who may leave if they aren't served promptly. Each task encourages strategic decision-making and quick reflexes, providing a dynamic and satisfying gameplay experience as players progress through increasingly complex levels.",
   "androidLink": "https://play.google.com/store/apps/details?id=com.cooking.games.design.madness",
   "iosLink": "null"
  },
+
+ {
+  "category": "Casual",
+  "tag": "#Casual,#2D",
+  "name": "Asian Cooking Star",
+  "url": "https://www.youtube.com/watch?v=sbtTQT7VTJQ",
+  "description": "\"Asian Cooking Star\" Asian Cooking Star is a dynamic time-management cooking game that lets players step into the role of a chef and master diverse kitchens across various culinary themes. Each level presents unique challenges, such as meeting customer demands within tight time constraints, maximizing coins, or preparing special dishes without errors.Players work through multiple restaurants, each featuring its own menu and ambiance, allowing them to experience and cook a wide variety of Asian cuisines. The game keeps players engaged by introducing new ingredients, cooking techniques, and themed kitchens as they advance, providing a fresh challenge in every level.",
+  "androidLink": "https://play.google.com/store/apps/details?id=com.asiancooking.star.chef.cooking.games&hl=en",
+  "iosLink": "null"
+ },
+
+ 
+ {
+  "category": "Casual",
+  "tag": "#Casual,#2D",
+  "name": "Merge Fever",
+  "url": "https://www.youtube.com/watch?v=_hOMFJa5Asw",
+  "description": "\"Merge Fever\"  is a unique 2D board-style merge game where players prepare and serve dishes by combining ingredients on a board. Unlike traditional cooking games, players strategically merge ingredients available on the board to create specific dishes, which are then served to satisfy customer orders. This twist on the classic cooking genre requires planning and time management to ensure customers receive their orders quickly and accurately. Designed as a 2D portrait game, Merge Fever offers a visually appealing and easy-to-navigate interface, allowing players to focus on merging ingredients and fulfilling orders in a fast-paced, immersive gameplay experience.",
+  "androidLink": "https://play.google.com/store/apps/details?id=com.puzzle.merge.games&hl=en",
+  "iosLink": "null"
+ },
+ 
  
  {
   "category": "Small Game",
