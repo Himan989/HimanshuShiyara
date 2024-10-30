@@ -1,16 +1,36 @@
 var videoData =[
  {
   "category": "Multiplayer",
-  "tag": "#Multiplayer,#3D,#API",
+  "tag": "#Multiplayer,#3D",
   "name": "Fans of Soccer: Online Football Disc Challenge",
   "url": "https://www.youtube.com/embed/hl0tz3163vQ",
   "description": "\"Fans of Soccer\" is an engaging turn-based multiplayer game powered by Photon, designed to bring the thrill of soccer strategy to your fingertips. In this game, you can participate in 1 vs. 1 real-time online matches, where strategic communication is facilitated through emojis, and you can deploy a range of attack and defense powers to outmaneuver your opponents. If you prefer solo play, challenge AI opponents and engage in tactical battles while chatting and using powers to conquer the virtual soccer field.\n\nTo keep the excitement alive, the game offers monthly event modes that unlock on the 1st of each month, providing additional opportunities to earn rewards and showcase your skills. Moreover, on the 15th of every month, you can compete in the World Championship mode, a prestigious event that allows you to prove yourself as the ultimate soccer strategist.\n\nFor those who thrive in competitive environments, there are 8-player tournaments with three stages: the initial 8-player round, the thrilling Semi-Finals with four players, and the ultimate showdown in the Finals with two players vying for valuable prizes. Daily missions are also available from Monday to Friday, allowing you to earn rewards and hone your soccer prowess.\n\nYour player profile is securely stored on the server, showcasing your achievements and progress in the game. Customize your team's formation with various dice options, each offering unique strategic advantages that can turn the tide of the game in your favor.\n\nTo enhance your gaming experience, you can collect and choose from a diverse array of dice, each possessing distinctive powers that can significantly impact the outcome of matches. In-app purchases are available, allowing you to acquire in-game currency for access to exclusive items and upgrades.\n\nLogging in is a breeze with options such as Facebook, Google, or a guest account, ensuring you can quickly dive into the action. Expand your soccer network by finding friends using their IDs or names, challenge them, send gifts, and check who's online for some friendly competition.\n\nStay informed with push notifications, courtesy of Firebase integration, ensuring you never miss out on challenges and daily rewards. Additionally, the game offers two exciting mini-games, allowing you to earn even more rewards while enjoying some casual gaming fun.\n\nWith \"Fans of Soccer,\" you can immerse yourself in the world of soccer strategy, compete globally, and forge friendships while navigating through a dynamic gaming environment filled with events, challenges, and endless possibilities. Are you ready to become a soccer legend?",
   "androidLink": "https://play.google.com/store/apps/details?id=com.omentertainment.soccerfans",
   "iosLink": "null"
  },
+
+ {
+  "category": "2D Games",
+  "tag": "#Multiplayer,#2D",
+  "name": "Cooking Valley: Level Base Game",
+  "url": "https://play.google.com/store/apps/details?id=com.cooking.games.design.madness",
+  "description": "\"Cooking Valley\" is an engaging, level-based time-management game where players step into the role of Emma, a talented chef, on a mission to serve delicious dishes to a bustling restaurant full of customers. In this game, players guide Emma as she cooks and serves meals, meeting the unique demands of each level. Levels introduce a variety of challenges—some require fast service within strict time limits, others focus on collecting a certain amount of coins, fulfilling specific food orders, or managing impatient customers who may leave if they aren't served promptly. Each task encourages strategic decision-making and quick reflexes, providing a dynamic and satisfying gameplay experience as players progress through increasingly complex levels.",
+  "androidLink": "https://play.google.com/store/apps/details?id=com.cooking.games.design.madness",
+  "iosLink": "null"
+ },
+
+
+
+
+
+
+
+
+
+ 
  {
   "category": "Multiplayer",
-  "tag": "#Multiplayer,#2D#API",
+  "tag": "#Multiplayer,#2D",
   "name": "Fish Game",
   "url": "https://www.youtube.com/embed/Oh1gzRQcsuY",
   "description": "Dive into an immersive aquatic adventure with our Fish Games, offering real-time multiplayer action powered by the Mirror and GameLift SDKs. Your underwater journey is armed with an arsenal of unique guns, including the precision of the Single Gun, the firepower of the Double Gun, the incendiary effects of the Fire Gun, and the precision-focused Laser Gun.\n\nBut that's not all – you'll have Freezing and Summon powers at your disposal, adding strategic depth to your gameplay. Freeze your foes in their tracks or summon reinforcements to aid your quest for underwater supremacy.\n\nPrepare to encounter 13 distinct types of fish, each with their own unique kill values. Some are elusive and challenging to catch, while others are bountiful treasures waiting to be claimed. Strategize and choose your weapons wisely to maximize your rewards.\n\nWhether you're a high-stakes player or just looking for some casual fun, our game offers the flexibility to play with real money for that authentic casino thrill or use virtual currency to refine your skills and explore the depths of the underwater world risk-free.\n\nDive in, team up with friends or challenge players from around the globe, and embark on an epic underwater adventure in Fish Games. Let the hunt begin!",
@@ -19,7 +39,7 @@ var videoData =[
  },
  {
   "category": "casino",
-  "tag": "#casino,#2D#API",
+  "tag": "#casino,#2D#VFX#Animation",
   "name": "Raptor-Firelink slot",
   "url": "https://www.youtube.com/embed/G5pBg2vddzo",
   "description": "Games connected to the Fire Link mechanic will use fireballs on the reels. Each fireball will have a value that it displays. In the base game, the first through fourth rows will have fireballs with a value of 1x to 100x the wager, or trigger jackpots: mini, minor, or major.\n\nFour or more fireballs on the reels triggers the Fire Link feature. You are given three spins, and the fireballs that activate the round will hold. Any fireballs that appear from the free spins also stay. As you collect more fireballs, new rows can be added to the reels. Up to four extra reels can appear in the game, giving you more win potential. Once the round is completed, the fireballs show their values, be it multipliers or jackpot prizes.",
@@ -28,7 +48,7 @@ var videoData =[
  },
  {
   "category": "casino",
-  "tag": "#casino,#2D#API",
+  "tag": "#casino,#2D#VFX",
   "name": "Cosmoslot-Slot,Keno,Fish",
   "url": "https://www.youtube.com/embed/8D8YgmX7jjA",
   "description": "Slot machines offer a thrilling gaming experience with features like Autoplay, Wilds, Scatters, Free Spins, and Bonus Rounds, enhancing your chances of winning. Multipliers can boost your rewards, while Progressive Jackpots offer life-changing payouts. For the risk-takers, there's the Gamble feature. Paylines and Adjacent Ways provide various ways to win, and Cascading Reels create exciting chain reactions. You have the option to play with real money for a genuine casino feel or use virtual currency to enjoy the game risk-free.",
@@ -37,7 +57,7 @@ var videoData =[
  },
  {
   "category": "casino",
-  "tag": "#casino,#2D#API",
+  "tag": "#casino,#2D#VFX",
   "name": "BoomWins-Slot,Keno,Fish",
   "url": "https://www.youtube.com/embed/NeunV8q78Tk",
   "description": "Slot machines offer a thrilling gaming experience with features like Autoplay, Wilds, Scatters, Free Spins, and Bonus Rounds, enhancing your chances of winning. Multipliers can boost your rewards, while Progressive Jackpots offer life-changing payouts. For the risk-takers, there's the Gamble feature. Paylines and Adjacent Ways provide various ways to win, and Cascading Reels create exciting chain reactions. You have the option to play with real money for a genuine casino feel or use virtual currency to enjoy the game risk-free.",
@@ -46,7 +66,7 @@ var videoData =[
  },
  {
   "category": "casino",
-  "tag": "#casino,#2D#API",
+  "tag": "#casino,#2D#VFX",
   "name": "Cascade Slot",
   "url": "https://www.youtube.com/embed/bcQnWN162F4",
   "description": "Cascading reels is a gambling term most often used by slot machine and video slot players. The term describes a bonus feature that appears each time you land a winning combination. Video slot software developers have designed numerous creative cascading reels.",
@@ -55,7 +75,7 @@ var videoData =[
  },
  {
   "category": "casino",
-  "tag": "#casino,#2D#API",
+  "tag": "#casino,#2D#VFX",
   "name": "Atlantis-Firelink Slot",
   "url": "https://www.youtube.com/embed/xKIC9XQpIis",
   "description": "Games connected to the Fire Link mechanic will use fireballs on the reels. Each fireball will have a value that it displays. In the base game, the first through fourth rows will have fireballs with a value of 1x to 100x the wager, or trigger jackpots: mini, minor, or major.\n\nFour or more fireballs on the reels triggers the Fire Link feature. You are given three spins, and the fireballs that activate the round will hold. Any fireballs that appear from the free spins also stay. As you collect more fireballs, new rows can be added to the reels. Up to four extra reels can appear in the game, giving you more win potential. Once the round is completed, the fireballs show their values, be it multipliers or jackpot prizes.",
