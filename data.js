@@ -139,7 +139,7 @@ var videoData =[
   "category": "Casual",
   "tag": "#Casual,#2D",
   "name": "Asian Cooking Star",
-  "url": "https://www.youtube.com/watch?v=sbtTQT7VTJQ",
+  "url": "https://www.youtube.com/embed/sbtTQT7VTJQ?si=kXgO7NOk0iCbBti5",
   "description": "\"Asian Cooking Star\" Asian Cooking Star is a dynamic time-management cooking game that lets players step into the role of a chef and master diverse kitchens across various culinary themes. Each level presents unique challenges, such as meeting customer demands within tight time constraints, maximizing coins, or preparing special dishes without errors.Players work through multiple restaurants, each featuring its own menu and ambiance, allowing them to experience and cook a wide variety of Asian cuisines. The game keeps players engaged by introducing new ingredients, cooking techniques, and themed kitchens as they advance, providing a fresh challenge in every level.",
   "androidLink": "https://play.google.com/store/apps/details?id=com.asiancooking.star.chef.cooking.games&hl=en",
   "iosLink": "null"
@@ -150,7 +150,7 @@ var videoData =[
   "category": "Casual",
   "tag": "#Casual,#2D",
   "name": "Merge Fever",
-  "url": "https://www.youtube.com/watch?v=_hOMFJa5Asw",
+  "url": "https://www.youtube.com/embed/_hOMFJa5Asw?si=vwMWGW6E2B9unvlW",
   "description": "\"Merge Fever\"  is a unique 2D board-style merge game where players prepare and serve dishes by combining ingredients on a board. Unlike traditional cooking games, players strategically merge ingredients available on the board to create specific dishes, which are then served to satisfy customer orders. This twist on the classic cooking genre requires planning and time management to ensure customers receive their orders quickly and accurately. Designed as a 2D portrait game, Merge Fever offers a visually appealing and easy-to-navigate interface, allowing players to focus on merging ingredients and fulfilling orders in a fast-paced, immersive gameplay experience.",
   "androidLink": "https://play.google.com/store/apps/details?id=com.puzzle.merge.games&hl=en",
   "iosLink": "null"
