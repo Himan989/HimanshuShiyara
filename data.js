@@ -65,28 +65,10 @@ var videoData =[
  {
   "category": "Hypercasual",
   "tag": "#Hypercasual,#3D",
-  "name": "Maggots Fight",
-  "url": "https://www.youtube.com/embed/Lvf_95wUm8o",
-  "description": "\n\"Maggots Fight\" is a unique and intriguing game where players take on the role of controlling maggots using a joystick to pursue their prey - Bird Flash. In this unusual and captivating gaming experience, the objective is clear: guide the maggots as they strive to catch and consume Bird Flash. The game combines precise control mechanics with a distinct and imaginative concept, promising an engaging and challenging adventure where players must master the art of maggot navigation to achieve their goal. It's an intriguing twist on the classic predator-prey dynamic, offering a fresh and exciting gaming experience.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.redlinegames.bugsattack3d",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
   "name": "Oil Searcher",
   "url": "https://www.youtube.com/embed/lp00xddJ2as",
   "description": "\"Oil Searcher\" is a compelling and goal-oriented game where players embark on a quest to uncover valuable oil reserves. The gameplay revolves around the strategic digging of land to locate hidden oil deposits. As players progress through the game, their mission is to reach the level's end and successfully fill up their oil tank. This captivating adventure combines elements of exploration, strategy, and resource management, making it an engaging experience for those looking to test their skills in the oil industry.",
   "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Pandora Box",
-  "url": "https://www.youtube.com/embed/lNOO9BWERLI",
-  "description": "\"Pandora Box\" presents an intriguing and challenging gameplay concept where players are thrust into a world of supernatural intrigue. In this game, the mysterious Pandora's Box has been opened, releasing mischievous ghosts into the world. Players must take on the role of ghost hunters and embark on a quest to capture these elusive spirits. The objective is clear: pursue and catch the ghosts as they fly and flee, with each level culminating in a thrilling ghost-catching showdown. This game offers a unique blend of mystery, strategy, and ghost-catching excitement, making it an immersive and captivating gaming experience.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.redlinegames.pandorarun",
   "iosLink": "null"
  },
  {
@@ -101,15 +83,6 @@ var videoData =[
  {
   "category": "Hypercasual",
   "tag": "#Hypercasual,#3D",
-  "name": "Kaiju Fight",
-  "url": "https://www.youtube.com/embed/6PblH2-3zb0",
-  "description": "\"Kaiju Fight\" is an exhilarating battle game where players engage in epic clashes with monstrous AI opponents. In this heart-pounding gaming experience, both the player and AI-controlled monsters have progress bars. The key to victory lies in timing and precision. Players and AI opponents must tap at just the right moment to deliver a powerful Big hit. Success in these well-timed strikes is crucial for outmaneuvering opponents and securing victory. \"Kaiju Fight\" combines strategic timing, intense battles, and thrilling action, offering an immersive and adrenaline-pumping gaming adventure.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.redlinegames.kaijufight",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
   "name": "KickEm",
   "url": "https://www.youtube.com/embed/LGgkUQCjKAc",
   "description": "\"KickEm\" is an unconventional and darkly humorous game where players are tasked with launching a character into obstacles to inflict damage and break various body parts. This unique and somewhat macabre concept adds a twist to traditional gaming experiences, as players strategically aim to cause havoc and destruction. The objective is clear: maximize the chaos by targeting obstacles and witnessing the comical consequences of broken body parts. \"KickEm\" provides a one-of-a-kind gaming adventure that combines dark humor, strategy, and playful destruction.",
@@ -119,73 +92,10 @@ var videoData =[
  {
   "category": "Hypercasual",
   "tag": "#Hypercasual,#3D",
-  "name": "Mission Possible",
-  "url": "https://www.youtube.com/embed/ESpBEwi_3eQ",
-  "description": "\n\"Mission Possible\" offers players an intriguing and mentally stimulating puzzle game. In this unique gaming experience, the objective is to strategically drag and adjust the limbs of the player character to perfectly fit specific shapes or structures. As you navigate through this challenging mission, your goal is to match the required shape with precision and move downwards. \"Mission Possible\" combines creativity, problem-solving, and dexterity, delivering an engaging and rewarding gaming adventure for those seeking a cerebral challenge.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
   "name": "Crowd Painter",
   "url": "https://www.youtube.com/embed/LhSM2yHm-EM",
   "description": "\"Crowd Painter\" is a creative and entertaining game that challenges players to amass colorful minions to form a vibrant crowd. As you progress through the levels, the objective is to gather these lively minions and arrange them strategically. Once your crowd is assembled, you can use a cannon to launch the minions and unveil a stunning painting. This game offers a unique blend of crowd management, artistic exploration, and strategic aiming, promising an enjoyable and imaginative gaming experience for players of all ages.",
   "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Hyper Tailor",
-  "url": "https://www.youtube.com/embed/-Z60EjsRA20",
-  "description": "\"Hyper Tailor\" is a dynamic fashion game that empowers players to become fashion designers. In this creative gaming experience, your task is to cut the cloth of a model and transform it into a fashionable dress. The game challenges your sense of style and precision as you tailor the garment to perfection. With a range of customization options and the freedom to express your fashion creativity, \"Hyper Tailor\" promises an engaging and satisfying gaming adventure for anyone with an eye for design.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Reverse Painting",
-  "url": "https://www.youtube.com/embed/bQQGwju3-nQ",
-  "description": "\"Reverse Painting\" offers a delightful and unique twist on the world of culinary creativity. In this enjoyable game, the goal is to create pancake art using a painting approach. Players can exercise their artistic skills by pouring pancake batter onto a griddle in intricate patterns and designs. As the pancake cooks, the artwork takes shape in reverse, making for a captivating and imaginative cooking adventure. \"Reverse Painting\" combines the joy of artistry with culinary expertise, promising a fun and delicious gaming experience for those looking to explore the world of edible art.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.redlinegames.reversepainting",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Farmio",
-  "url": "https://www.youtube.com/embed/w1JXdB9eGMg",
-  "description": "\"Farmio\" is an engaging and strategic game where players take on the role of herbivorous creatures seeking to survive and thrive. In this captivating gaming experience, your objective is to eat grass and grow your group while simultaneously competing against AI-controlled groups. The challenge lies in strategically expanding your group's size and eliminating AI groups to establish dominance. \"Farmio\" combines elements of resource management, strategy, and competition, offering an immersive and dynamic gaming adventure in the world of survival and growth.",
-  "androidLink": "https://play.google.com/store/apps/details?id=farm.io.battle",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Stop the train",
-  "url": "https://www.youtube.com/embed/gXVshQhQieU",
-  "description": "\"Stop the Train\" puts players in the shoes of the iconic superhero Spider-Man in a thrilling gaming experience. In this action-packed adventure, Spider-Man must swing into action by shooting his web onto buildings to halt a runaway train. As players take control of this beloved character, they'll need quick reflexes and precision to prevent the train from disaster. \"Stop the Train\" delivers an adrenaline-pumping and heroic gaming journey, offering fans of Spider-Man an opportunity to step into the web-slinger's shoes and save the day.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Cheerleader tower",
-  "url": "https://www.youtube.com/embed/OOgwpp-YF7c",
-  "description": "\"Cheerleader Tower\" is an entertaining and light-hearted game that challenges players to create a towering structure made up of collected cheerleaders. In this whimsical gaming experience, your objective is to run and gather cheerleaders to build a bigger and more impressive tower. As you progress, the tower becomes a symbol of your success in amassing these spirited characters. \"Cheerleader Tower\" offers a fun and engaging gaming adventure that combines coordination, timing, and a touch of humor, making it an enjoyable experience for players of all ages.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Erase story",
-  "url": "https://www.youtube.com/embed/CaAbiW_CA1E",
-  "description": "\"Erase Story\" presents a unique and intriguing puzzle game where players must strategically erase unwanted elements from an image to reveal a meaningful and coherent picture. In this captivating gaming experience, your task is to use your precision and problem-solving skills to eliminate the unnecessary components, piece by piece, until the image forms a clear and comprehensible scene. \"Erase Story\" offers a challenging and engaging journey that combines creativity, attention to detail, and artistic sensibilities, making it an enjoyable and intellectually stimulating game for players looking for a visual puzzle challenge.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.redlinegames.erasestory",
   "iosLink": "null"
  },
  {
@@ -207,69 +117,6 @@ var videoData =[
   "iosLink": "null"
  },
  {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Epic Fall-",
-  "url": "https://www.youtube.com/embed/fQRElQohpt4",
-  "description": "\"Epic Fall\" is a thrilling and challenging game that plunges players into a world filled with obstacles. In this action-packed gaming experience, your objective is to strategically navigate through treacherous environments while avoiding being trapped by the obstacles. With each level presenting increasingly difficult challenges, \"Epic Fall\" tests your reflexes and decision-making skills as you strive to safely guide the character to the bottom without falling victim to the hazards. This game delivers an adrenaline-pumping and action-packed adventure, making it an epic journey for gamers seeking thrilling and heart-pounding experiences.",
-  "androidLink": "https://apps.apple.com/us/app/epic-fall/id1545332345",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Turbo man",
-  "url": "https://www.youtube.com/embed/st1mfPCNqrg",
-  "description": "\"Turbo Man\" is an exhilarating game that puts players in control of a character equipped with jetpacks. In this high-octane gaming experience, your goal is to collect jetpacks strategically placed along your path to soar over gaps and obstacles in your way. The game combines elements of speed, precision, and timing as you navigate through challenging levels, making \"Turbo Man\" an action-packed and dynamic adventure for those seeking a thrilling gaming experience in the world of jetpack-powered flight.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Walk Master3d",
-  "url": "https://www.youtube.com/embed/u_K_w5P-4E0",
-  "description": "\"Walk Master 3D\" is a unique and entertaining game that challenges players to guide a character using a wooden stick. In this delightful gaming experience, your objective is to master the art of balance and coordination as you maneuver the character forward. The wooden stick becomes your tool for precise movement, making each step a test of your skill. \"Walk Master 3D\" offers a fun and engaging gaming adventure that combines elements of dexterity and strategy, making it an enjoyable experience for players of all ages.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Drawmbush",
-  "url": "https://www.youtube.com/embed/lKEhyPsljiY",
-  "description": "\"Drawmbush\" is an exciting and creative game that allows players to draw paths for their character to follow, leading them to engage with and defeat enemies. In this dynamic gaming experience, your objective is to strategize and sketch out paths that will guide your character to confront and eliminate adversaries effectively. The game combines elements of planning, precision, and combat, offering an engaging and imaginative adventure for those who enjoy both strategic thinking and action-packed gameplay.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Hypercasual",
-  "tag": "#Hypercasual,#3D",
-  "name": "Magic Monsters 3D",
-  "url": "https://www.youtube.com/embed/x7V9x7FC2J8",
-  "description": "Defeat the monsters and use your magic powers to save the princess. Be careful of the giant dragon and its fire breath. Have fun!",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.RedLineGames.MagicMonsters3D",
-  "iosLink": "null"
- },
- {
-  "category": "Casual",
-  "tag": "#Casual,#2D",
-  "name": "MOWGLI JUMP - JUNGLE BOOK GAME",
-  "url": "null",
-  "description": "An amazing gaming experience based on the characters from The Jungle Book.\nThe most innovative game on 'The Jungle Book'.\n\nTake a ride through the jungle river. Collect coins to unlock characters and use power-ups.\nSwim with Baloo, Jump over Crocodiles, Jump & slide on Kaa(Snake), Dodge Bandar(Monkey) attacks,\nClimb & Run on Hathi(Elephant) and Ride with Bagheera",
-  "androidLink": "http://igeniusdev.com/portfolio/mowgli-jump-jungle-book-game",
-  "iosLink": "null"
- },
- {
-  "category": "Casual",
-  "tag": "#Casual,#2D",
-  "name": "Super hexa fit",
-  "url": "null",
-  "description": "Block Puzzle is the exciting new puzzle game that everyone’s playing!\n\nEasy to play and pleasurable game for all age. Simply Drag the blocks, and fill up all grids.\n\nFrom now on, let's enjoy a simple\n\nAn achievements have also been added to challenge your friends, colleagues and circles.\n\nYou can also connect your Facebook to compete with your friends on Super Hexa Fit",
-  "androidLink": "https://itunes.apple.com/in/app/super-hexa-fit/id1111116865?mt=8",
-  "iosLink": "https://itunes.apple.com/in/app/super-hexa-fit/id1111116865?mt=8"
- },
- {
   "category": "Casual",
   "tag": "#Casual,#2D",
   "name": "Dont vapid up",
@@ -277,24 +124,6 @@ var videoData =[
   "description": "This game could damage your mind and intelligence.\n\nGame is too simple but its hurt your peace mind while you look and start to play game.\nif you want to punish your mind and want to make it more sharp like a niddle,Then you must try once\nand beat your old score and also involve your friends mind too\n\nRule are simple like eating chocolate\n\nI will tell you ‘TAP’ and you have to follow my order and hit the screen.\nSometimes I will tell you ‘Wait’ you have to obey text information.\nIf you don’t, then you loose the game..\n\nJust go far as you can…\n\nBeat your top score,share your score in your circle",
   "androidLink": "null",
   "iosLink": "null"
- },
- {
-  "category": "Casual",
-  "tag": "#Casual,#2D",
-  "name": "Flappy magic bird",
-  "url": "null",
-  "description": "Flappy Magic Bird : Go as far as you can avoiding pipes.",
-  "androidLink": "https://itunes.apple.com/in/app/flappy-magic-bird/id1004543881?mt=8",
-  "iosLink": "https://itunes.apple.com/in/app/flappy-magic-bird/id1004543881?mt=8"
- },
- {
-  "category": "Casual",
-  "tag": "#Casual,#2D",
-  "name": "SANTA'S SLAY™ - CHRISTMAS GAME",
-  "url": "null",
-  "description": "Legend tells of a Legendary Warrior living on top of a Snow capped mountain, guardian to the innocent, children & the Mountain Village.\n\nIt’s CHRISTMAS SEASON and the Mountain Village is haunted by Dark souled animals & Kallikantzaroi creatures. Now, you are bestowed with the legacy of the legend Saint Nicholas a.k.a. Santa Claus.\n\n* Guard the Mountain Village\n* Collect the Golden Snowflakes that the Gods send from sky for future upgrades\n* Kill the Dark Creatures while sliding on the snow (Swipe to Right & Slash)\n\nIn this release you’ll get to explore the Mountain ridge area during the Dawn, coming soon in the next update you’ll get More locations during the day, evening and night; more upgrades like Advanced Weapons, Snowboards, etc. and More dangerous Enemies. Experience this beginning of SANTA’s SLAY™ adventure and await for the update coming soon.",
-  "androidLink": "http://igeniusdev.com/portfolio/santas-slay-christmas-game",
-  "iosLink": "http://igeniusdev.com/portfolio/santas-slay-christmas-game"
  },
  {
   "category": "Small Game",
