@@ -8,24 +8,7 @@ var videoData =[
   "androidLink": "https://play.google.com/store/apps/details?id=com.omentertainment.soccerfans",
   "iosLink": "null"
  },
- {
-  "category": "Multiplayer",
-  "tag": "#Multiplayer,#2D#API",
-  "name": "Qikplay - Win Real Gift Cards",
-  "url": "https://www.youtube.com/embed/yabdeTjGhek",
-  "description": "\"Quick Play-Win Real Gift Cards\" is a unique multiplayer game that offers a fusion of classic board games and tangible rewards. With its 1 vs. 1 real-time online matches in Ludo and Uno, players can enjoy the excitement of these beloved games while competing against opponents worldwide. What sets this game apart is its innovative reward system. By participating in matches and accumulating in-game currency, players have the opportunity to redeem real gift cards, opening up a world of shopping possibilities. This enticing prospect adds an extra layer of motivation to the gameplay.\n\nIn addition to the game's engaging matches, \"Quick Play-Win Real Gift Cards\" offers a Daily Rewards feature through the Spine Wheel. This feature provides players with daily bonuses and incentives, ensuring that dedicated players are consistently rewarded for their commitment. Player profiles are securely saved on the server, allowing gamers to track their achievements, progress, and statistics, creating a sense of identity and progression within the game.\n\nFor those looking to enhance their gaming experience, the game provides in-app purchases, allowing players to acquire in-game currency from the store. This currency can be used to access exclusive items, bonuses, and advantages, tailoring the gaming experience to individual preferences. Players can also choose from multiple login options, including Facebook, Google, or guest accounts, ensuring quick and convenient access to the game.\n\nFurthermore, the social aspect of the game adds to its appeal. Players can add new friends and challenge them to matches, elevating the competitive spirit and making the experience even more enjoyable when shared with friends. \"Quick Play-Win Real Gift Cards\" brings together the thrill of classic board games, the excitement of real-time multiplayer competition, and the satisfaction of earning tangible rewards. It's a gaming experience that promises both entertainment and practical benefits, offering the chance to turn virtual success into real-world gains. Whether aiming for victory in Ludo or showcasing card skills in Uno, this game provides endless hours of enjoyment and the opportunity to win real gift cards, making it a must-try for gaming enthusiasts. Join the gaming community and embark on your journey to winning real gift cards today!",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.Qikplay.LudoandUNO",
-  "iosLink": "null"
- },
- {
-  "category": "Multiplayer",
-  "tag": "#Multiplayer,#3D",
-  "name": "ISTO3D-WiFi Multiplayer Game",
-  "url": "https://www.youtube.com/embed/H7t18n0Rl6U",
-  "description": "ISTO 3D is an Indian Ludo game, offering a rich gaming experience built on Unity3D with C#. This 4-player game allows users to engage in exciting matches, either playing with friends over Wi-Fi or challenging AI opponents. Additionally, the game provides in-app purchase options to enhance gameplay and customization. Enjoy the timeless fun of Ludo with friends or test your skills against AI opponents, all within a vibrant and immersive 3D environment.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.moxmind.isto&authuser=0",
-  "iosLink": "null"
- },
+
  {
   "category": "Multiplayer",
   "tag": "#Multiplayer,#2D#API",
@@ -374,15 +357,6 @@ var videoData =[
   "name": "Interactive car configuration Product Visualization 360",
   "url": "https://www.youtube.com/embed/3GcaScFV37k",
   "description": "Interactive car configuration Product Visualization 360 is a cutting-edge solution that enables customers to engage in a fully immersive and interactive experience when customizing their vehicles. This technology provides a 360-degree view of the car, allowing users to explore every angle, detail, and feature in real-time. Users can interactively customize various aspects of the vehicle, such as choosing the color, wheels, interior materials, and more. This level of customization and interactivity enhances the car-buying experience, providing customers with a comprehensive understanding of their choices and helping them make informed decisions. Whether you're a car enthusiast or in the market for a new vehicle, this 360-degree product visualization technology revolutionizes how cars are configured and explored.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Other",
-  "tag": "#Other,#3D,#Multiplayer",
-  "name": "Multiplayer City Walk Through",
-  "url": "https://www.youtube.com/embed/up-P_01UtCs",
-  "description": "In the 4-player multiplayer game \"City Walk Through,\" players can immerse themselves in a bustling virtual cityscape, complete with the opportunity to explore, drive bikes, and even commandeer boats for aquatic adventures. What sets this experience apart is the ability to invite other nearby players to join the excitement. As you and your friends traverse the urban landscape, you can extend invitations to other players in close proximity, creating a dynamic and social gaming experience that fosters real-world connections within the virtual city. It's an engaging and interactive way to explore the city, share adventures, and forge new gaming relationships.",
   "androidLink": "null",
   "iosLink": "null"
  },
