@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="data.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Your CSS styles here */
+        /* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the menu bar */
+        .menu {
+            display: flex;
+            justify-content: center; /* Center-align menu items */
+            align-items: center;
+            padding: 10px;
+            background-color: royalblue;
+            color: white;
+        }
+
+        /* Style for menu items */
+        .menu-item {
+            cursor: pointer;
+            padding: 20px;
+        }
+
+        .menu-item-a {
+           color: white;
+        }
+
+        /* Style for the video grid container */
+        .video-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 20px;
+            overflow: hidden;
+
+        }
+
+        /* Style for each video row */
+        .video-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Style for each video element */
+        .video {
+            flex: 1;
+            max-width: calc(25% - 20px);
+            min-width: 325px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: calc(15% + 5%);
+            padding: 10px;
+            border-radius: 25px;
+            border: 2px solid royalblue;
+            background: aliceblue;
+        }
+
+        .video iframe {
+            width: 100%;
+            height: calc(100% + 5%); /* Increase iframe height by 5% */
+            flex-grow: 1;
+            border-radius: 10px;
+            border: 0.5px solid #73AD21;
+        }
+
+        /* Style for the video details at the bottom */
+        .video-details {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            top: 5px;
+            padding: 5px;
+            text-align: left; /* Align the text to the left */
+            position: relative;
+            z-index: 2; /* Ensure it's above the iframe */
+            border-radius: 10px;
+            border: 0.5px solid #73AD21;
+        }
+
+        /* Style for the app store link buttons */
+        .app-links {
+            display: flex;
+            justify-content: flex-start; /* Align to the left */
+            gap: 10px; /* Small space between links */
+            margin-top: 10px;
+        }
+
+        /* Style for the video category */
+        .video-category {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-weight: bold;
+        background-color: royalblue;
+        padding: 3px 10px;
+        border-radius: 3px;
+        color: white;
+        z-index: 2; /* Ensure it's above the iframe */
+    }
+
+        /* Style for the video description */
+        .video-description {
+            font-size: 14px;
+            margin-top: 5px;
+            line-height: 1.4; /* Adjust line height */
+            overflow: hidden;
+            max-height: 4.2em; /* 3 lines of text */
+        }
+
+        .read-more {
+            display: none;
+        }
+
+        /* Style for "Read more" link */
+         .read-more-link {
+            cursor: pointer;
+            color: #69a8bb;
+            font-weight: bold;
+        }
+
+        .show-read-more .video-description {
+            max-height: none; /* Remove max height to show the entire description */
+        }
+
+        /* Responsive adjustments for mobile devices */
+        @media (max-width: 768px) {
+            .menu {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .video-row {
+                flex-direction: column;
+            }
+
+            .video {
+                max-width: calc(100% - 20px);
+            }
+        }
+
+         .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background-color: white;
+            padding: 20px;
+            max-width: 80%;
+            max-height: 80%;
+            overflow: auto;
+            border-radius: 5px;
+        }
+                /* Additional styles for name, designation, and experience */
+               .contact-details {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: right;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Additional styles for name, designation, and experience */
+        .contact-details h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .contact-details p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+    </style>
+    <title>Nitesh Parmar[Sr.Unity3D Game Developer]</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#all');" class="menu-item-a">All</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#Multiplayer');" class="menu-item-a">Multiplayer</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#AR');" class="menu-item-a">AR</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#VR');" class="menu-item-a">VR</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#casino');" class="menu-item-a">Casino</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#Hypercasual');" class="menu-item-a">Hypercasual</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#Casual');" class="menu-item-a">Casual</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#smallGame');" class="menu-item-a">Small Games</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#Other');" class="menu-item-a">Other</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#3d');" class="menu-item-a">3D</a></div>
+        <div class="menu-item"><a href="javascript:void(0)" onclick="generateVideoGrid('#2d');" class="menu-item-a">2D</a></div>
+        
+    </div>
+
+    <div class="video-grid" id="videoGrid">
+        <!-- Video elements will be added here using JavaScript -->
+    </div>
+    <div class="popup" id="descriptionPopup">
+        <div class="popup-content" id="popupContent">
+            <!-- Video description will be added here using JavaScript -->
+        </div>
+    </div>
+
+    <script>
+
+       function  generateVideoGrid(argument) {
+            const videosPerRow = 5;
+            let numRows = Math.ceil(videoData.length / videosPerRow);
+            const videoGrid = document.getElementById("videoGrid");
+            while (videoGrid.firstChild) {
+                videoGrid.firstChild.remove();
+            }
+            videoGrid.textContent='';
+            var currentRow=null;
+            var index=0;
+            var child=5;
+            var checkCategory=true;
+            if(argument.toLowerCase()=="#all"){
+                checkCategory=false;
+            }
+            for (let row = 0; row < numRows; row++) {
+                if(child==5){
+                    child=0;
+                    currentRow = document.createElement("div");
+                    currentRow.className = "video-row";
+                    videoGrid.appendChild(currentRow);   
+                }
+
+                for (let i = row * videosPerRow; i < (row + 1) * videosPerRow; i++) {
+                    const videoDataObj = videoData[i];
+
+                    if (!videoDataObj) break;
+
+                    index++;
+                     if(checkCategory==true)
+                     {
+                        if(videoDataObj.tag.toLowerCase().indexOf(argument.toLowerCase())==-1)
+                         continue;
+                     }
+                     child++;
+
+                    const videoDiv = document.createElement("div");
+                    videoDiv.className = "video";
+
+                    const videoIframe = document.createElement("iframe");
+                    videoIframe.src = videoDataObj.url;
+                    videoIframe.frameBorder = "0";
+                    videoIframe.allowFullscreen = true;
+
+                    const videoCategory = document.createElement("div");
+                    videoCategory.className = "video-category";
+                    videoCategory.textContent = videoDataObj.category;
+
+                    const videoDetails = document.createElement("div");
+                    videoDetails.className = "video-details";
+                    videoDetails.textContent = videoDataObj.name;
+
+                    const videoDescription = document.createElement("div");
+                    videoDescription.className = "video-description";
+                    
+                    if(videoDataObj.description!="" && videoDataObj.description!=null){
+                        var str=videoDataObj.description.substring(0,120);
+                        var lastIndex = str.lastIndexOf(" ");
+                        videoDescription.textContent = videoDataObj.description.substring(0,lastIndex);
+                    }else{
+
+                        videoDescription.textContent = "";
+                    }
+
+                   
+                    
+
+                    const appLinks = document.createElement("div");
+                    appLinks.className = "app-links";
+                    if(videoDataObj.androidLink!="" && videoDataObj.androidLink!="null"){
+                        const androidLink = document.createElement("a");
+                        androidLink.href = videoDataObj.androidLink;
+                        androidLink.textContent = "";
+                        let img = document.createElement('img');
+                        img.style="height:32px;width:32px";
+                        img.src ='android.png';
+                        androidLink.appendChild(img);
+                        appLinks.appendChild(androidLink);
+                    }
+                    if(videoDataObj.iosLink!="" && videoDataObj.iosLink!="null"){
+                        const iosLink = document.createElement("a");
+                        iosLink.href = videoDataObj.iosLink;
+                        let img = document.createElement('img');
+                        img.style="height:32px;width:32px";
+                        img.src ='ios.png';
+                        iosLink.appendChild(img);
+                        appLinks.appendChild(iosLink);
+                    }
+
+                    videoDiv.appendChild(videoIframe);
+                    videoDiv.appendChild(videoDetails);
+                    videoDiv.appendChild(appLinks);
+                    videoDiv.appendChild(videoDescription);
+                     if(videoDataObj.description!=null && videoDataObj.description.length>150){
+                        const readMore = document.createElement("a");
+                        readMore.className = "read-more-link";
+                        readMore.name=""+(index-1);
+                        readMore.href = "#";
+                        readMore.textContent = "Read More";
+                        videoDescription.textContent=videoDescription.textContent+"...";
+                        videoDescription.appendChild(readMore);
+                    }
+                    videoDiv.appendChild(videoCategory);
+                    currentRow.appendChild(videoDiv);
+                    
+                }
+
+                
+        }
+
+        // Add event listener to "Read more" links
+           const readMoreLinks = document.querySelectorAll(".read-more-link");
+        readMoreLinks.forEach(link => {
+            console.log(videoData[parseInt(link.name)].description);
+            link.addEventListener("click", () => {
+                const videoDescription = link.parentElement.querySelector(".video-description");
+                const popupContent = document.getElementById("popupContent");
+                popupContent.textContent = videoData[parseInt(link.name)].description;
+                
+                const popup = document.getElementById("descriptionPopup");
+                popup.style.display = "flex";
+            });
+        });
+       }
+       
+       generateVideoGrid("#all");
+
+        // Close the popup when clicked outside the content
+        const popup = document.getElementById("descriptionPopup");
+        popup.addEventListener("click", (event) => {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
