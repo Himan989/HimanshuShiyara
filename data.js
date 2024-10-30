@@ -18,60 +18,6 @@ var videoData =[
   "iosLink": "null"
  },
  {
-  "category": "AR",
-  "tag": "#AR,#3D",
-  "name": "Modi ki Note - Modi Rocks",
-  "url": "https://www.youtube.com/embed/tvcmQ9ttPHc",
-  "description": "\"Modi Ki Note(AR)\" is a unique augmented reality (AR) app designed for scanning new ₹2000 or ₹500 Indian Rupee notes, transforming them into a cartoon version of Prime Minister Narendra Modi. With just a tap, you can customize Modi Ji's appearance, including his specs, turban, shoes, trousers, pyjamas, and even equip him with a microphone. This fun and creative app offer a playful way to personalize your currency notes with a touch of humor and imagination.",
-  "androidLink": "https://play.google.com/store/apps/details?id=com.MoxMind.ModiRocksRocks&authuser=0",
-  "iosLink": "null"
- },
- {
-  "category": "AR",
-  "tag": "#AR,#3D",
-  "name": "AR Furniture Placing",
-  "url": "https://www.youtube.com/embed/zQyiA3mE6KY",
-  "description": "The AR Furniture Placing app is a game-changing tool for interior design enthusiasts and homeowners alike. It empowers users to reimagine and customize their living spaces by seamlessly integrating the virtual and physical worlds. Within the app's extensive library, users can select from a vast array of 3D furniture models, representing a wide range of styles and brands. Using the device's camera and augmented reality technology, these virtual furniture items can be precisely placed within the user's real-world environment. What sets this app apart is the ability to experiment with different furniture layouts and configurations, offering an unparalleled level of creative freedom. Once the furniture is in place, users can explore their virtual home from every angle, truly visualizing how these pieces will fit into their space. This app streamlines the decision-making process, reducing the risk of mismatched purchases and making it an invaluable tool for anyone undertaking interior design projects or simply seeking to explore new design ideas. It's a transformative experience that brings dreams of home improvement to life, all within the convenience of a smartphone or tablet.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "AR",
-  "tag": "#AR,#3D",
-  "name": "Cube Throw Game",
-  "url": "https://www.youtube.com/embed/SjSTNkY-P78",
-  "description": "The \"Cube Throw Game\" is an augmented reality (AR) game that adds an exciting twist to a classic party challenge. In this interactive and immersive experience, players aim to throw a virtual cube into a tea cup using their AR-equipped devices. The objective is to precisely toss the cube into the cup while considering factors such as distance, angle, and force.\n\nThis game combines the physical act of throwing with the immersive capabilities of AR technology, creating an engaging and entertaining activity for players of all ages. Whether you're challenging friends at a gathering or enjoying a solo gaming session, the \"Cube Throw Game\" promises hours of fun as you aim for that perfect toss into the tea cup.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "AR",
-  "tag": "#AR,#3D",
-  "name": "AR Vehicle Classification",
-  "url": "https://www.youtube.com/embed/lN1BTqv5haU",
-  "description": "\"Car Game Module(AR)\" is an innovative augmented reality (AR) game that offers users an engaging and interactive experience with a fleet of virtual vehicles. Using markers as reference points, users can place and view these vehicles in their real-world surroundings, creating an immersive and lifelike experience of driving various cars. With approximately 25 different vehicles to choose from, including sports cars, trucks, and classic automobiles, the game caters to a wide range of preferences. What sets this game apart is its commitment to realism, providing users with precise driving controls. Players can accelerate, brake, steer, and maneuver the vehicles with precision, ensuring an authentic and enjoyable driving experience. \"Car Game Module(AR)\" seamlessly blends the thrill of driving diverse vehicles with the captivating capabilities of augmented reality, offering users a unique and entertaining way to explore their love for automobiles in their own environment. Whether you're a car enthusiast or simply seeking an engaging AR adventure, this game promises hours of interactive entertainment.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "VR",
-  "tag": "#VR,#3D",
-  "name": "VR - Home Interior",
-  "url": "https://www.youtube.com/embed/efqDzqq10F4",
-  "description": "In the realm of virtual reality (VR) for home interiors, users can embark on a captivating journey to explore and customize their dream homes. This immersive VR experience allows individuals to enter a virtual representation of a home or living space, complete with various rooms and areas to explore. Users can wander through these digital environments, closely inspecting every detail, from furnishings to architectural elements.\n\nFurthermore, this VR technology empowers users to experiment with home design and customization. They can rearrange furniture, change the color schemes of walls and décor, and even modify structural aspects of the virtual home, all within the immersive VR environment. This interactive exploration and customization process facilitate informed decision-making for real-life home improvement or interior design projects.\n\nIn essence, VR for home interiors transforms the way individuals conceptualize and personalize their living spaces. It offers a realistic and engaging platform for interior design, enabling users to visualize, experiment, and refine their home environments before making any physical changes. This innovation enhances the home design experience, making it more interactive, creative, and tailored to individual preferences.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "VR",
-  "tag": "#VR,#3D",
-  "name": "The Bug Butcher",
-  "url": "https://www.youtube.com/embed/FVrF3efVAVM",
-  "description": "\"The Bug Slayer(VR)\" is a straightforward and immersive VR game that centers around bug extermination. In this virtual reality experience, players find themselves in a challenging environment where they must skillfully shoot down bugs as they approach in the river. With each bug eliminated, players can accumulate valuable coins that can be used to acquire powerful new firearms. The game's objective is clear: become the ultimate bug slayer by effectively targeting and eliminating these pesky insects while amassing rewards to enhance your arsenal. It's a game designed to deliver a thrilling and action-packed VR shooting experience.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
   "category": "casino",
   "tag": "#casino,#2D#API",
   "name": "Raptor-Firelink slot",
@@ -349,24 +295,6 @@ var videoData =[
   "description": "Legend tells of a Legendary Warrior living on top of a Snow capped mountain, guardian to the innocent, children & the Mountain Village.\n\nIt’s CHRISTMAS SEASON and the Mountain Village is haunted by Dark souled animals & Kallikantzaroi creatures. Now, you are bestowed with the legacy of the legend Saint Nicholas a.k.a. Santa Claus.\n\n* Guard the Mountain Village\n* Collect the Golden Snowflakes that the Gods send from sky for future upgrades\n* Kill the Dark Creatures while sliding on the snow (Swipe to Right & Slash)\n\nIn this release you’ll get to explore the Mountain ridge area during the Dawn, coming soon in the next update you’ll get More locations during the day, evening and night; more upgrades like Advanced Weapons, Snowboards, etc. and More dangerous Enemies. Experience this beginning of SANTA’s SLAY™ adventure and await for the update coming soon.",
   "androidLink": "http://igeniusdev.com/portfolio/santas-slay-christmas-game",
   "iosLink": "http://igeniusdev.com/portfolio/santas-slay-christmas-game"
- },
- {
-  "category": "Other",
-  "tag": "#Other,#3D",
-  "name": "Interactive car configuration Product Visualization 360",
-  "url": "https://www.youtube.com/embed/3GcaScFV37k",
-  "description": "Interactive car configuration Product Visualization 360 is a cutting-edge solution that enables customers to engage in a fully immersive and interactive experience when customizing their vehicles. This technology provides a 360-degree view of the car, allowing users to explore every angle, detail, and feature in real-time. Users can interactively customize various aspects of the vehicle, such as choosing the color, wheels, interior materials, and more. This level of customization and interactivity enhances the car-buying experience, providing customers with a comprehensive understanding of their choices and helping them make informed decisions. Whether you're a car enthusiast or in the market for a new vehicle, this 360-degree product visualization technology revolutionizes how cars are configured and explored.",
-  "androidLink": "null",
-  "iosLink": "null"
- },
- {
-  "category": "Other",
-  "tag": "#Other,#2D#API",
-  "name": "Rashi Bazar",
-  "url": "https://www.youtube.com/embed/L4Pou3ALas8",
-  "description": "Multiple Unique slots for placing bets\nYou can place a bet on\n\nRashi - 8.33% winning chance and you get 12 times the amount you bet\n\nColour - 33% winning chance and you get 3 times the amount you bet\n\nOdd/Even - 50% winning chance and you get 2 times the amount you bet\n\nBerths - 50% winning chance and you get 2 times the amount you bet\n\nTo summarize this section of the site, it only confirms that Rashi Bazar is one of the best new operators.\n\nUnlike casino games here in Rashi Bazar there are no unpaid slots. That shows the credibility of the app. The result is universal and can be viewed for upto two days for better guessing.",
-  "androidLink": "null",
-  "iosLink": "null"
  },
  {
   "category": "Small Game",
