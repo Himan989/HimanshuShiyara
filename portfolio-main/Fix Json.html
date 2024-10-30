@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Text Area Copy-Paste</title>
+      <script>
+         function escapeReservedCharacters(inputString) {
+           const escapeMap = {
+             '\t': '\\t',
+             '\v': '\\v',
+             '\0': '\\0',
+             '\b': '\\b',
+             '\f': '\\f',
+             '\n': '\\n',
+             '\r': '\\r',
+             '\'': '\\\'',
+             '\"': '\\\"',
+             '\\': '\\\\',
+           };
+         
+           // Use .replace() with a callback function to perform the replacements
+           const escapedString = inputString.replace(/[\t\v\0\b\f\n\r'"]/g, (match) => {
+             return escapeMap[match];
+           });
+         
+           return escapedString;
+         }
+         
+             function copyText() {
+               var textarea1 = document.getElementById("textarea1");
+               var textarea2 = document.getElementById("textarea2");
+               // textarea2.value = textarea1.value.replace('\"category\"', 'category').replace('\"name\"', 'name')
+               // .replace('\"url\"', 'url').replace('\"description\"', 'description').replace('\"androidLink\"', 'androidLink')
+               // .replace('\"iosLink\"', 'iosLink').replace(/\\\//g, "/").replace('\"tag\"', 'tag');
+
+                textarea2.value = textarea1.value.replace(/\\\//g, "/");
+
+               //textarea2.value=escapeReservedCharacters(textarea2.value);
+               //letStIdex=0;
+               //console.log(textarea2.value);
+               // while(letStIdex<textarea2.value.length){
+               //      let startIndex=textarea2.value.indexOf("description:",letStIdex)+28;
+               //      let endIndex=textarea2.value.indexOf("androidLink:",letStIdex)+9;
+               //      if(startIndex==-1|| endIndex==-1){
+               //         letStIdex=textarea2.value.length*2;
+               //      }else{
+               //       let str=textarea2.value.slice(letStIdex,endIndex);
+               //       textarea2.value=textarea2.value.replace(str,escapeReservedCharacters(str));
+               //       letStIdex=endIndex;
+               //      }     
+               // }
+             }
+         
+         
+           
+      </script>
+   </head>
+   <body>
+      <h1><a href="https://products.aspose.app/cells/conversion/excel-to-json">Convert Excel To JSON Website</a></h1>
+      <h1>Text Area Copy-Paste</h1>
+      <label for="textarea1">Text Area 1:</label>
+      <br>
+      <textarea id="textarea1" rows="4" cols="50"></textarea>
+      <br><br>
+      <label for="textarea2">Text Area 2:</label>
+      <br>
+      <textarea id="textarea2" rows="4" cols="50"></textarea>
+      <br><br>
+      <button onclick="copyText()">Copy Text</button>
+   </body>
+</html>
