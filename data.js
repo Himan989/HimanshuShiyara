@@ -10,7 +10,7 @@ var videoData =[
  },
 
  {
-  "category": "2D Games",
+  "category": "Casual",
   "tag": "#Multiplayer,#2D",
   "name": "Cooking Valley: Level Base Game",
   "url": "https://play.google.com/store/apps/details?id=com.cooking.games.design.madness",
