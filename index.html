@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Video Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Video Portfolio</h1>
+        <div class="filter-options">
+            <button onclick="filterVideos('all')">All</button>
+            <button onclick="filterVideos('Multiplayer')">Multiplayer</button>
+            <button onclick="filterVideos('casino')">Casino</button>
+            <button onclick="filterVideos('Hypercasual')">Hypercasual</button>
+            <button onclick="filterVideos('Casual')">Casual</button>
+            <button onclick="filterVideos('SmallGame')">Small Game</button>
+
+        </div>
+    </header>
+
+    <main class="video-gallery" id="videoGallery"></main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
